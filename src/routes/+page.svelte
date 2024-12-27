@@ -25,14 +25,15 @@
         image: '/inanocean.png',
         title: 'Mix: "In an Ocean"',
         description: 'Mixing project for the song "In an Ocean", performed and recorded by musicians from University of Michigan School of Music, Theater and Dance.',
-        link: ''
+        link: '',
+        audio: 'inanocean.wav'
       },
       { /*Percussion Classifier*/
         image: '/percClassifier.png',
         title: 'Percussion Instrument Classifier',
         description: 'Random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat.',
         link: 'waveformAnalysis.html'
-      },
+      }
     //   { /*Aplifier*/
     //     image: '',
     //     title: '',
@@ -77,6 +78,7 @@
         title={project.title} 
         description={project.description} 
         link={project.link}
+        audio={project.audio}
       />
     {/each}
   </section>

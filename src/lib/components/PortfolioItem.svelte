@@ -2,19 +2,20 @@
     export let image;
     export let title;
     export let description;
-    export let link; // The URL to navigate to
+    export let link;     // The URL to navigate to
+    export let audio;    // The optional .wav file URL
   </script>
   
   <style>
     .portfolio-link {
-      text-decoration: none; /* Remove link underline */
-      color: inherit;        /* Inherit text color */
+      text-decoration: none;
+      color: inherit;
     }
   
     .portfolio-item {
       max-width: 800px;
       margin: 0 auto 40px;
-      background-color: white; /* Optional: Adds a background to portfolio items */
+      background-color: white;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,7 +25,7 @@
     .portfolio-item:hover {
       transform: translateY(-2px);
       box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
-      cursor: pointer; /* Indicates clickable area */
+      cursor: pointer;
     }
   
     .portfolio-item img {
@@ -45,7 +46,6 @@
       color: #7f8c8d;
     }
   
-    /* Responsive Design within the component */
     @media (max-width: 768px) {
       .portfolio-item h2 {
         font-size: 1.5rem;
@@ -63,6 +63,14 @@
       <img src={image} alt={title} />
       <h2>{title}</h2>
       <p>{description}</p>
+  
+      {#if audio}
+        <!-- Only render audio if we have an audio prop -->
+        <audio controls>
+          <source src={audio} type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
+      {/if}
     </div>
   </a>
   
