@@ -8,13 +8,15 @@
   
   <style>
     .portfolio-link {
+      display: block;
+      max-width: 800px;
+      margin: 0 auto 40px;
       text-decoration: none;
       color: inherit;
     }
-  
+
     .portfolio-item {
-      max-width: 800px;
-      margin: 0 auto 40px;
+      /* keep the styles for hover, background, padding, etc. */
       background-color: white;
       padding: 20px;
       border-radius: 8px;
