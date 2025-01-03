@@ -32,7 +32,7 @@
         image: '/percClassifier.png',
         title: 'Percussion Instrument Classifier',
         description: 'Random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat.',
-        link: 'waveformAnalysis.html'
+        link: 'waveformanalysis.pdf'
       }
     //   { /*Aplifier*/
     //     image: '',
