@@ -57,7 +57,7 @@
       margin: 0;
       padding: 0;
       background-color: #f4f4f4; 
-      background: url('graphy-copy2.png') repeat;
+      background: url('/graphy-copy2.png') repeat;
       background-size: 45px 90px;
       background-attachment: fixed; 
     }
