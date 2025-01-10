@@ -59,17 +59,17 @@
       background-color: #f4f4f4; 
       background: url('graphy-copy2.png') repeat;
       background-size: 45px 90px;
-      background-attachment: fixed; /* Makes the background fixed */
+      background-attachment: fixed; 
     }
 
     .header-container {
-      background: #050a44f1;
-      color: #ffffffff;
-      text-align: center;
+      /* background: #050a44f1;
+      color: #ffffffff; */
+      text-align: left;
       padding: 60px 20px;
-
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
+      
+      /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+      /* margin-bottom: 20px; */
     }
 
 
@@ -79,24 +79,26 @@
     }
 
     .main-title {
-      font-family: 'Roboto';
-      font-size: 65px;
-      font-weight: 700;
+      font-family: 'Roboto Mono';
+      font-size: 80px;
+      font-weight: 600;
       letter-spacing: 1.5px;
       margin: 0;
       line-height: 1.2;
-
-      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  
+      /* color: 0 2px 5px rgb(255, 255, 255); */
+      /* text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
     }
 
     .main-name {
       font-family: 'Roboto';
       font-size: 20px;
-      font-weight: 600;
+      font-weight: 500;
       letter-spacing: 1.5px;
       margin: 0;
       line-height: 1.2;
-      color:rgba(255, 255, 255, 0.881);
+      padding-left: 3.5px;
+      color:rgb(181, 181, 181);
     }
     
     .bottom-right-text {
@@ -112,7 +114,7 @@
   <header id="home" class="header-container">
     <div class="header-content">
       <h1 class="main-title">Lennon Fairbanks Seiders</h1>
-      <h2 class="main-name">Portfolio</h2>
+      <h2 class="main-name"> Portfolio</h2>
     </div>
   </header>
 
