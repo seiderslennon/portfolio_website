@@ -26,7 +26,7 @@
   
     .portfolio-item:hover {
       transform: translateY(-2px);
-      box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 5px rgba(48, 25, 25, 0.2);
       cursor: pointer;
     }
   
@@ -38,14 +38,17 @@
   
     .portfolio-item h2 {
       margin-top: 20px;
-      font-size: 2rem;
+      font-size: 1.9rem;
       color: #2c3e50;
+      font-family: 'Roboto Mono';
+      font-weight: 450;
     }
   
     .portfolio-item p {
       margin-top: 10px;
       font-size: 1rem;
       color: #7f8c8d;
+      font-family: 'Rokkit';
     }
   
     @media (max-width: 768px) {

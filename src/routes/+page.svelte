@@ -5,8 +5,8 @@
     const projects = [
       {
         image: '/project1.png',
-        title: 'Electric Guitar Classification in Popular Music Recordings',
-        description: 'Training a neural network classifier to determine the presence of electric guitar on a dataset of ~4000 Billboard Hot 100 songs.',
+        title: 'Electric Guitar Classification',
+        description: 'Neural network classifier for determining the presence of electric guitar usinga custom dataset of ~4000 Billboard Hot 100 songs.',
         link: 'Electric Guitar Classification.pdf'
       },
       {
@@ -15,23 +15,23 @@
         description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound.',
         link: 'Differentially-Private Fair SVMs.pdf'
       },
-      {
-        image: '/project3.png',
-        title: 'Peak Removal in X-Ray Diffraction Images',
-        description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
-        link: 'X-ray_Diffraction.pdf'
-      },
       { /*In an Ocean*/
         image: '/inanocean.png',
         title: 'Mix: "In an Ocean"',
         description: 'Mixing project for the song "In an Ocean", performed and recorded by musicians from University of Michigan School of Music, Theater and Dance.',
-        link: '',
+        // link: '',
         audio: 'inanocean.wav'
+      },
+      {
+        image: '/project3.png',
+        title: 'Preprocessing X-Ray Diffraction Images',
+        description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
+        link: 'X-ray_Diffraction.pdf'
       },
       { /*Percussion Classifier*/
         image: '/percClassifier.png',
         title: 'Percussion Instrument Classifier',
-        description: 'Random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat.',
+        description: 'Simple random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat. Implemented using R\'s randomForest, tuneR and seewave libraries.',
         link: 'waveformanalysis.pdf'
       }
     //   { /*Aplifier*/
@@ -43,33 +43,79 @@
     ];
   </script>
   
+  <svelte:head>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+      rel="stylesheet"
+    /> -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </svelte:head>
+
   <style>
-    .header-container {
-      padding: 3rem 2rem;
-      background-color: #f8f9fa;
-      text-align: center;
-      margin-bottom: 2rem;
+    :global(body) {
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4; 
+      background: url('graphy-copy2.png') repeat;
+      background-size: 45px 90px;
+      background-attachment: fixed; /* Makes the background fixed */
     }
-    
+
+    .header-container {
+      background: #050a44f1;
+      color: #ffffffff;
+      text-align: center;
+      padding: 60px 20px;
+
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+
     .header-content {
-      max-width: 1200px;
+      max-width: 800px; 
       margin: 0 auto;
     }
-    
+
     .main-title {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      color: #333;
+      font-family: 'Roboto';
+      font-size: 65px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      margin: 0;
+      line-height: 1.2;
+
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
-    </style>
+
+    .main-name {
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      margin: 0;
+      line-height: 1.2;
+      color:rgba(255, 255, 255, 0.881);
+    }
+    
+    .bottom-right-text {
+      position: static;  
+      font-size: 0.85rem;
+      text-align: right;
+      padding-right: 5px;
+      color: #333;      
+    }
+  </style>
   
   <!-- Header Section -->
   <header id="home" class="header-container">
     <div class="header-content">
-      <h1 class="main-title">Application Portfolio - Lennon Seiders</h1>
+      <h1 class="main-title">Lennon Fairbanks Seiders</h1>
+      <h2 class="main-name">Portfolio</h2>
     </div>
   </header>
-  
+
   <!-- Portfolio Sections -->
   <section id="portfolio">
     {#each projects as project}
@@ -82,4 +128,8 @@
       />
     {/each}
   </section>
+
+  <div class="bottom-right-text">
+    coded + designed by Lennon Seiders
+  </div>
   
