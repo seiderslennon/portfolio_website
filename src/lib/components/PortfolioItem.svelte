@@ -46,9 +46,9 @@
   
     .portfolio-item p {
       margin-top: 10px;
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: #7f8c8d;
-      font-family: 'Rokkit';
+      font-family: 'Roboto';
     }
   
     @media (max-width: 768px) {

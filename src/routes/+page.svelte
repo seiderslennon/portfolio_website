@@ -26,7 +26,7 @@
         image: '/project3.png',
         title: 'Preprocessing X-Ray Diffraction Images',
         description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
-        link: 'X-ray_Diffraction.pdf'
+        link: 'https://github.com/seiderslennon/research_public'
       },
       { /*Percussion Classifier*/
         image: '/percClassifier.png',
