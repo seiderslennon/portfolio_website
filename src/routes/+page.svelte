@@ -10,10 +10,10 @@
         link: 'Electric Guitar Classification.pdf'
       },
       {
-        image: '/project2.png',
-        title: 'Differentially Private SVM Learning',
-        description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound.',
-        link: 'Differentially-Private Fair SVMs.pdf'
+        image: '/project3.png',
+        title: 'Preprocessing X-Ray Diffraction Images',
+        description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
+        link: 'https://github.com/seiderslennon/research_public'
       },
       { /*In an Ocean*/
         image: '/inanocean.png',
@@ -23,10 +23,10 @@
         audio: 'inanocean.wav'
       },
       {
-        image: '/project3.png',
-        title: 'Preprocessing X-Ray Diffraction Images',
-        description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
-        link: 'https://github.com/seiderslennon/research_public'
+        image: '/project2.png',
+        title: 'Differentially Private SVM Learning',
+        description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound.',
+        link: 'Differentially-Private Fair SVMs.pdf'
       },
       { /*Percussion Classifier*/
         image: '/percClassifier.png',
@@ -92,8 +92,8 @@
 
     .main-name {
       font-family: 'Roboto';
-      font-size: 20px;
-      font-weight: 500;
+      font-size: 28px;
+      font-weight: 600;
       letter-spacing: 1.5px;
       margin: 0;
       line-height: 1.2;
