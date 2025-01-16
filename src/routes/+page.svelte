@@ -6,7 +6,7 @@
       {
         image: '/project1.png',
         title: 'Electric Guitar Classification',
-        description: 'Neural network classifier for determining the presence of electric guitar usinga custom dataset of ~4000 Billboard Hot 100 songs.',
+        description: 'Neural network classifier for determining the presence of electric guitar usinga custom dataset of ~4000 Billboard Top 100 songs.',
         link: 'Electric Guitar Classification.pdf'
       },
       {
@@ -25,7 +25,7 @@
       {
         image: '/project2.png',
         title: 'Differentially Private SVM Learning',
-        description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound.',
+        description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound. Both Meera and I are responsible for each part of this project, although my work prioritized the algorithm while hers prioritized fairnes violation measurement',
         link: 'Differentially-Private Fair SVMs.pdf'
       },
       { /*Percussion Classifier*/
