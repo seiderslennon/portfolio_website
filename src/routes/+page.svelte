@@ -10,6 +10,12 @@
         link: 'Electric Guitar Classification.pdf'
       },
       {
+        image: '/finsta.png',
+        title: 'Instagram Clone',
+        description: 'Web application imitating the basic features of Instagram using client-side dynamic pages with a REST API.',
+        link: 'http://ec2-3-145-178-247.us-east-2.compute.amazonaws.com/'
+      },
+      {
         image: '/project3.png',
         title: 'Preprocessing X-Ray Diffraction Images',
         description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
