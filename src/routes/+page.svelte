@@ -65,7 +65,7 @@
   }
   .header-container {
     text-align: left;
-    padding: 60px 20px;
+    padding: 10px 20px;
   }
   .header-content {
     max-width: 800px; 
@@ -79,7 +79,7 @@
     margin: 0;
     line-height: 1.2;
   }
-  .main-name {
+  /* .main-name {
     font-family: 'Roboto';
     font-size: 28px;
     font-weight: 600;
@@ -88,7 +88,12 @@
     line-height: 1.2;
     padding-left: 3.5px;
     color: rgb(181, 181, 181);
-    cursor: pointer; /* Indicates that it's clickable */
+    cursor: pointer; 
+  } */
+  .main-name {
+    color: Purple;            /* Default link blue */
+    text-decoration: underline; /* Underline to mimic a link */
+    cursor: pointer;        /* Still shows it's clickable */
   }
   .bottom-right-text {
     position: static;  
