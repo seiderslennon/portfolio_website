@@ -19,7 +19,7 @@
       /* keep the styles for hover, background, padding, etc. */
       background-color: white;
       padding: 20px;
-      border-radius: 8px;
+      border-radius: 5px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
@@ -33,7 +33,7 @@
     .portfolio-item img {
       width: 100%;
       height: auto;
-      border-radius: 8px;
+      border-radius: 2px;
     }
   
     .portfolio-item h2 {

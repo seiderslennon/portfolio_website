@@ -21,18 +21,18 @@
         description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
         link: 'https://github.com/seiderslennon/research_public'
       },
+      {
+        image: '/project2.png',
+        title: 'Differentially Private SVM Learning',
+        description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound. Both Meera and I are responsible for each part of this project, although my work prioritized the algorithm while hers prioritized fairnes violation measurement',
+        link: 'Differentially-Private Fair SVMs.pdf'
+      },
       { /*In an Ocean*/
         image: '/inanocean.png',
         title: 'Mix: "In an Ocean"',
         description: 'Mixing project for the song "In an Ocean", performed and recorded by musicians from University of Michigan School of Music, Theater and Dance.',
         // link: '',
         audio: 'inanocean.wav'
-      },
-      {
-        image: '/project2.png',
-        title: 'Differentially Private SVM Learning',
-        description: 'Final project for the course "Foundations of Fairness in Machine Learning". Parternered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier, and make formal guarantees for its violation of fairness and error upper bound. Both Meera and I are responsible for each part of this project, although my work prioritized the algorithm while hers prioritized fairnes violation measurement',
-        link: 'Differentially-Private Fair SVMs.pdf'
       },
       { /*Percussion Classifier*/
         image: '/percClassifier.png',
