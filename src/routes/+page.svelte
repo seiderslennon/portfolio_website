@@ -6,6 +6,12 @@
   
   const projects = [
     {
+      image: '/deepDrawing.png',
+      title: 'Deep Drawing',
+      description: 'Current research project at the University of Michigan with professors Julie Zhu and John Granzow. Deep Drawing is an intermedia performance about the sound of drawing. Using the live audio input captured from the human performer’s drawing/writing, the AI performer generates in real-time a prediction of what the drawing looks like.',
+      // link: 'Electric Guitar Classification.pdf'
+    },
+    {
       image: '/project1.png',
       title: 'Electric Guitar Classification',
       description: 'Neural network classifier for determining the presence of electric guitar using a custom dataset of ~4000 Billboard Top 100 songs.',
@@ -91,10 +97,21 @@
     cursor: pointer; 
   } */
   .main-name {
-    color: Purple;            /* Default link blue */
-    text-decoration: underline; /* Underline to mimic a link */
-    cursor: pointer;        /* Still shows it's clickable */
-  }
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin: 0;
+  line-height: 1.2;
+  padding-left: 3.5px;
+  color: Purple;
+  text-decoration: underline;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 2px;
+  margin-bottom: 10px;
+}
   .bottom-right-text {
     position: static;  
     font-size: 0.85rem;
@@ -109,9 +126,9 @@
   <div class="header-content">
     <h1 class="main-title">Lennon Fairbanks Seiders</h1>
     <!-- Clicking the header toggles between views -->
-    <h2 class="main-name" on:click={toggleView}>
+    <button class="main-name" on:click={toggleView}>
       {showPortfolio ? 'Portfolio' : 'About'}
-    </h2>
+    </button>
   </div>
 </header>
 

@@ -51,7 +51,6 @@ declare module '$env/static/private' {
 	export const VSCODE_PROFILE_INITIALIZED: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
-	export const VIRTUAL_ENV: string;
 	export const PATH: string;
 	export const npm_package_json: string;
 	export const npm_config_engine_strict: string;
@@ -87,7 +86,6 @@ declare module '$env/static/private' {
 	export const HOMEBREW_CELLAR: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
-	export const VIRTUAL_ENV_PROMPT: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -148,7 +146,6 @@ declare module '$env/dynamic/private' {
 		VSCODE_PROFILE_INITIALIZED: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
-		VIRTUAL_ENV: string;
 		PATH: string;
 		npm_package_json: string;
 		npm_config_engine_strict: string;
@@ -184,7 +181,6 @@ declare module '$env/dynamic/private' {
 		HOMEBREW_CELLAR: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
-		VIRTUAL_ENV_PROMPT: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
