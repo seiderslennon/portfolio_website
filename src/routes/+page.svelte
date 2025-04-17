@@ -12,7 +12,7 @@
       // link: ''
     },
     {
-      image: '/lator.png',
+      image: '/calculator.png',
       title: 'Lator',
       description: 'Calculator + Oscillators. A simple calculator instrument that can be used to combine, modify, and play frequencies. This tool enables the user to work outside the confines of traditional scales, exploring acoustic beating effects and easily appling Pythagorean ratios. Built using p5.js with p5.sound.',
       link: 'https://lator-h5gfv8m5z-seiderslennons-projects.vercel.app/'
