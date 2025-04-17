@@ -8,8 +8,14 @@
     {
       image: '/deepDrawing.png',
       title: 'Deep Drawing',
-      description: 'Current research project at the University of Michigan with professors Julie Zhu and John Granzow. Deep Drawing is an intermedia performance about the sound of drawing. Using the live audio input captured from the human performer’s drawing/writing, the AI performer generates in real-time a prediction of what the drawing looks like.',
-      // link: 'Electric Guitar Classification.pdf'
+      description: 'Current research project at the University of Michigan with professors Julie Zhu and John Granzow. Deep Drawing is an intermedia performance about the sound of drawing. Using live audio input captured from the human performer’s drawing/writing, the AI performer generates in real-time a prediction of what the drawing looks like.',
+      // link: ''
+    },
+    {
+      image: '/lator.png',
+      title: 'Lator',
+      description: 'Calculator + Oscillators. A simple calculator instrument that can be used to combine, modify, and play frequencies. This tool enables the user to work outside the confines of traditional scales, exploring acoustic beating effects and easily appling Pythagorean ratios. Built using p5.js with p5.sound.',
+      link: 'https://lator-h5gfv8m5z-seiderslennons-projects.vercel.app/'
     },
     {
       image: '/project1.png',
@@ -150,8 +156,8 @@
   </div>
 {:else}
   <section id="about" style="max-width: 800px; margin: 0 auto;">
-    <p>I am an undergraduate student at the University of Michigan majoring in Computer Science and Data Science. I like building things and music.</p>
-    <p><a href="https://github.com/seiderslennon" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">github.com/seiderslennon</a></p>
+    <p>I am an undergraduate student at the University of Michigan, majoring in Computer Science and Data Science. I like building things and music.</p>
+    <!-- <p><a href="https://github.com/seiderslennon" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">github.com/seiderslennon</a></p> -->
     <p><a href="https://www.linkedin.com/in/lennon-seiders/" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">linkedin.com/in/lennon-seiders</a></p>
     <p>seiderslennon@gmail.com</p>
   </section>
