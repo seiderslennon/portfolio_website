@@ -12,16 +12,22 @@
       // link: ''
     },
     {
-      image: '/calculator.png',
-      title: 'Lator',
-      description: 'Calculator + Oscillators. A simple calculator instrument that can be used to combine, modify, and play frequencies. This tool enables the user to work outside the confines of traditional scales, exploring acoustic beating effects and easily appling Pythagorean ratios. Built using p5.js with p5.sound.',
-      link: 'https://lator-eight.vercel.app/'
+      image: '/project2.png',
+      title: 'Differentially Private SVM Learning',
+      description: 'Final project for the course "Foundations of Fairness in Machine Learning". Partnered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier.',
+      link: 'Differentially-Private Fair SVMs.pdf'
     },
     {
       image: '/project1.png',
       title: 'Electric Guitar Classification',
       description: 'Neural network classifier for determining the presence of electric guitar using a custom dataset of ~4000 Billboard Top 100 songs.',
       link: 'Electric Guitar Classification.pdf'
+    },
+    {
+      image: '/calculator.png',
+      title: 'Lator',
+      description: 'Calculator + Oscillators. A simple calculator instrument that can be used to combine, modify, and play frequencies. This tool enables the user to work outside the confines of traditional scales, exploring acoustic beating effects and easily appling Pythagorean ratios. Built using p5.js with p5.sound.',
+      link: 'https://lator-eight.vercel.app/'
     },
     {
       image: '/finsta.png',
@@ -35,23 +41,17 @@
       description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
       link: 'https://github.com/seiderslennon/research_public'
     },
-    {
-      image: '/project2.png',
-      title: 'Differentially Private SVM Learning',
-      description: 'Final project for the course "Foundations of Fairness in Machine Learning". Partnered with another undergraduate, Meera Kumar, to design a post-processing algorithm for a differentially-private fair support vector machine classifier.',
-      link: 'Differentially-Private Fair SVMs.pdf'
+    { 
+      image: '/percClassifier.png',
+      title: 'Percussion Instrument Classifier',
+      description: 'Simple random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat. Implemented using R\'s randomForest, tuneR and seewave libraries.',
+      link: 'waveformanalysis.pdf'
     },
     { 
       image: '/inanocean.png',
       title: 'Mix: "In an Ocean"',
       description: 'Mixing project for the song "In an Ocean", performed and recorded by musicians from University of Michigan School of Music, Theater and Dance.',
       audio: 'inanocean.wav'
-    },
-    { 
-      image: '/percClassifier.png',
-      title: 'Percussion Instrument Classifier',
-      description: 'Simple random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat. Implemented using R\'s randomForest, tuneR and seewave libraries.',
-      link: 'waveformanalysis.pdf'
     }
   ];
   
@@ -156,7 +156,7 @@
   </div>
 {:else}
   <section id="about" style="max-width: 800px; margin: 0 auto;">
-    <p>I am an undergraduate student at the University of Michigan, majoring in Computer Science and Data Science. I like building things and music.</p>
+    <p>I am an M.S. in Music Technology student at Georgia Tech. I like building things and music.</p>
     <!-- <p><a href="https://github.com/seiderslennon" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">github.com/seiderslennon</a></p> -->
     <p><a href="https://www.linkedin.com/in/lennon-seiders/" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">linkedin.com/in/lennon-seiders</a></p>
     <p>seiderslennon@gmail.com</p>
