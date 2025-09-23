@@ -4,15 +4,16 @@
     export let description;
     export let link;     // The URL to navigate to
     export let audio;    // The optional .wav file URL
+    export let year;     // The year for the project
   </script>
   
   <style>
     .portfolio-link {
       display: block;
-      max-width: 800px;
-      margin: 0 auto 40px;
+      margin: 0 0 20px 0;
       text-decoration: none;
       color: inherit;
+      break-inside: avoid;
     }
 
     .portfolio-item {
@@ -37,18 +38,26 @@
     }
   
     .portfolio-item h2 {
-      margin-top: 20px;
-      font-size: 1.9rem;
+      margin: 20px 0 5px 0;
+      font-size: 1.4rem;
       color: #2c3e50;
       font-family: 'Roboto Mono';
       font-weight: 450;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   
     .portfolio-item p {
-      margin-top: 10px;
+      margin: 0;
       font-size: 1.1rem;
       color: #7f8c8d;
       font-family: 'Roboto';
+    }
+
+    .portfolio-item audio {
+      margin-top: 15px;
+      width: 100%;
     }
   
     @media (max-width: 768px) {
@@ -59,6 +68,10 @@
       .portfolio-item p {
         font-size: 0.9rem;
       }
+
+      .portfolio-link {
+        margin: 0 0 15px 0;
+      }
     }
   </style>
   
@@ -66,7 +79,12 @@
   <a class="portfolio-link" href={link} target="_blank" rel="noopener noreferrer">
     <div class="portfolio-item">
       <img src={image} alt={title} />
-      <h2>{title}</h2>
+      <h2>
+        <span>{title}</span>
+        {#if year}
+          <span class="year">{year}</span>
+        {/if}
+      </h2>
       <p>{description}</p>
   
       {#if audio}
