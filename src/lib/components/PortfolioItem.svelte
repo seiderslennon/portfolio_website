@@ -18,7 +18,7 @@
 
     .portfolio-item {
       /* keep the styles for hover, background, padding, etc. */
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.374);
       padding: 20px;
       border-radius: 5px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

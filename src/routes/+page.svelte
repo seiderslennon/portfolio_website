@@ -13,6 +13,13 @@
       link: 'https://deepdrawing.github.io/',
       year: 2025
     },
+
+    {
+      image: '/amp.jpeg',
+      title: 'Headphone Amplifier',
+      description: 'Custom-built headphone amplifier using Objective2\'s circuit schematic.',
+      year: 2025
+    },
     {
       image: '/calculator.png',
       title: 'Lator',
@@ -35,11 +42,27 @@
       year: 2024
     },
     {
-      image: '/amp.jpeg',
-      title: 'Headphone Amplifier',
-      description: 'Custom-built headphone amplifier using Objective2\'s circuit schematic.',
+      image: '/spherephones.png',
+      title: 'Spherephones',
+      description: 'Research project at Georgia Tech\'s Robotic Musicianship Lab. Open-ear headphones with excellent spatial audio capability and VR/AR compatibility. Patent pending.',
+      // link: 'https://github.com/seiderslennon/Playable-DDSP-Sound-Matching-Synthesizer',
       year: 2025
     },
+    // { 
+    //   image: '/percClassifier.png',
+    //   title: 'Percussion Instrument Classifier',
+    //   description: 'Simple random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat. Implemented using R\'s randomForest, tuneR and seewave libraries.',
+    //   link: 'waveformanalysis.pdf',
+    //   year: 2024
+    // },
+    {
+      image: '/VCV-DDSP.png',
+      title: 'Sound Matching Synthesizer',
+      description: 'Lightweight machine learning algorithm that learns a VCV Rack patch for sound matching. Using a genetic optimization algorithm, this synthesizer can automatically tune control voltage signals to input audio.',
+      link: 'https://github.com/seiderslennon/Playable-DDSP-Sound-Matching-Synthesizer',
+      year: 2025
+    },
+
     {
       image: '/project2.png',
       title: 'Differentially Private SVM Learning',
@@ -47,18 +70,12 @@
       link: 'Differentially-Private Fair SVMs.pdf',
       year: 2024
     },
+
     {
       image: '/project1.png',
       title: 'Electric Guitar Classification',
       description: 'Neural network classifier for determining the presence of electric guitar using a custom dataset of ~4000 Billboard Top 100 songs.',
       link: 'Electric Guitar Classification.pdf',
-      year: 2024
-    },
-    { 
-      image: '/percClassifier.png',
-      title: 'Percussion Instrument Classifier',
-      description: 'Simple random forest instrument classifier for three instruments: kick drum, snare drum, and hi-hat. Implemented using R\'s randomForest, tuneR and seewave libraries.',
-      link: 'waveformanalysis.pdf',
       year: 2024
     },
     { 
@@ -86,7 +103,7 @@
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; 
+    /* background-color: #f4f4f4;  */
     background: url('/graphy-copy2.png') repeat;
     background-size: 45px 90px;
     background-attachment: fixed; 
@@ -108,17 +125,6 @@
     margin: 0;
     line-height: 1.2;
   }
-  /* .main-name {
-    font-family: 'Roboto';
-    font-size: 28px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    margin: 0;
-    line-height: 1.2;
-    padding-left: 3.5px;
-    color: rgb(181, 181, 181);
-    cursor: pointer; 
-  } */
   .main-name {
   font-family: 'sans-serif';
   font-size: 27px;
@@ -205,7 +211,7 @@
   </div>
 {:else}
   <section id="about" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-    <p>I am a M.S. in Music Technology student at Georgia Tech. I like building things and music. Right now, I am involved in research in spatial audio, sound source localization, and AI-generated music detection.</p>
+    <p>I am a first-year M.S. in Music Technology student at Georgia Tech. I like building things and music. Right now, I am involved in research in spatial audio, sound source localization, and AI-generated music detection.</p>
     <!-- <p><a href="https://github.com/seiderslennon" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">github.com/seiderslennon</a></p> -->
     <p><a href="https://www.linkedin.com/in/lennon-seiders/" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">linkedin.com/in/lennon-seiders</a></p>
     <p>lseiders3@gatech.edu</p>
