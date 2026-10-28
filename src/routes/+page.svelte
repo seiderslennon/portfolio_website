@@ -10,7 +10,7 @@
     {
       image: '/spherephones.png',
       title: 'Spherephones',
-      description: 'Research project at Georgia Tech\'s Robotic Musicianship Lab. Open-ear headphones with excellent spatial audio capability and VR/AR compatibility. Patent pending.',
+      description: 'Research project at Georgia Tech\'s Robotic Musicianship Lab. Open-ear headphones with excellent spatial audio capability and VR/AR compatibility. Recieved a GT AIM grant of $50,000 to develop Spherephones into a commercial product. Patent filed March 2026.',
       link: 'https://news.research.gatech.edu/feature/spherephones',
       year: 2026
     },
