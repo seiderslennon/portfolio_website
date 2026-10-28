@@ -6,14 +6,21 @@
   let hasInteracted = false;
   
   const projects = [
+
+    {
+      image: '/spherephones.png',
+      title: 'Spherephones',
+      description: 'Research project at Georgia Tech\'s Robotic Musicianship Lab. Open-ear headphones with excellent spatial audio capability and VR/AR compatibility. Patent pending.',
+      link: 'https://news.research.gatech.edu/feature/spherephones',
+      year: 2026
+    },
     {
       image: '/deepDrawing.png',
       title: 'Deep Drawing',
-      description: 'Deep Drawing is an intermedia performance about the sound of drawing. Using live audio input captured from the human performer’s drawing/writing, the AI performer generates in real-time a prediction of what the drawing looks like.',
-      link: 'https://deepdrawing.github.io/',
+      description: 'Deep Drawing is an intermedia performance about the sound of drawing. Using live audio input captured from the human performer’s drawing/writing, the AI performer generates in real-time a prediction of what the drawing looks like. Presented at NIME 2026.',
+      link: 'https://nime.org/proc/nime2026_166/index.html',
       year: 2025
     },
-
     {
       image: '/amp.jpeg',
       title: 'Headphone Amplifier',
@@ -27,26 +34,20 @@
       link: 'https://lator-eight.vercel.app/',
       year: 2025
     },
+
+    // {
+    //   image: '/finsta.png',
+    //   title: 'Instagram Clone',
+    //   description: 'Web application imitating the basic features of Instagram using client-side dynamic pages with a REST API.',
+    //   link: 'http://ec2-3-145-178-247.us-east-2.compute.amazonaws.com/',
+    //   year: 2025
+    // },
+
     {
-      image: '/finsta.png',
-      title: 'Instagram Clone',
-      description: 'Web application imitating the basic features of Instagram using client-side dynamic pages with a REST API.',
-      link: 'http://ec2-3-145-178-247.us-east-2.compute.amazonaws.com/',
-      year: 2025
-    },
-    {
-      image: '/project3.png',
-      title: 'Preprocessing X-Ray Diffraction Images',
-      description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
-      link: 'https://github.com/seiderslennon/research_public',
-      year: 2024
-    },
-    {
-      image: '/spherephones.png',
-      title: 'Spherephones',
-      description: 'Research project at Georgia Tech\'s Robotic Musicianship Lab. Open-ear headphones with excellent spatial audio capability and VR/AR compatibility. Patent pending.',
-      // link: 'https://github.com/seiderslennon/Playable-DDSP-Sound-Matching-Synthesizer',
-      year: 2025
+      image: '/AIGM.png',
+      title: 'Robust AI-Generated Music Detection',
+      description: 'Achieved state-of-the-art results detecting AI-generated music from generators unseen during training. Submitted to IEEE ICAASP 2027.',
+      year: 2026
     },
     // { 
     //   image: '/percClassifier.png',
@@ -70,21 +71,27 @@
       link: 'Differentially-Private Fair SVMs.pdf',
       year: 2024
     },
-
     {
-      image: '/project1.png',
-      title: 'Electric Guitar Classification',
-      description: 'Neural network classifier for determining the presence of electric guitar using a custom dataset of ~4000 Billboard Top 100 songs.',
-      link: 'Electric Guitar Classification.pdf',
+      image: '/project3.png',
+      title: 'Preprocessing X-Ray Diffraction Images',
+      description: 'Summer research project as an undergraduate researcher working under postdoctoral advisor Seunghee Oh at Professor Ashley Bucsek\'s materials science research lab.',
+      link: 'https://github.com/seiderslennon/research_public',
       year: 2024
     },
-    { 
-      image: '/inanocean.png',
-      title: 'Mix: "In an Ocean"',
-      description: 'Mixing project for the song "In an Ocean", performed and recorded by musicians from University of Michigan School of Music, Theater and Dance.',
-      audio: 'inanocean.wav',
-      year: 2024
-    }
+    // {
+    //   image: '/project1.png',
+    //   title: 'Electric Guitar Classification',
+    //   description: 'Neural network classifier for determining the presence of electric guitar using a custom dataset of ~4000 Billboard Top 100 songs.',
+    //   link: 'Electric Guitar Classification.pdf',
+    //   year: 2024
+    // },
+    // { 
+    //   image: '/inanocean.png',
+    //   title: 'Mix: "In an Ocean"',
+    //   description: 'Mixing project for the song "In an Ocean", performed and recorded by musicians from University of Michigan School of Music, Theater and Dance.',
+    //   audio: 'inanocean.wav',
+    //   year: 2024
+    // }
   ];
   
   // Toggle between portfolio and about view
@@ -211,7 +218,7 @@
   </div>
 {:else}
   <section id="about" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-    <p>I am a first-year M.S. in Music Technology student at Georgia Tech. I like building things and music. Right now, I am involved in research in spatial audio, sound source localization, and AI-generated music detection.</p>
+    <p>I am a M.S. in Music Technology student at Georgia Tech. I like building things and music. Right now, I am involved in research in robotics, reinforcement learning, and AI-generated music detection.</p>
     <!-- <p><a href="https://github.com/seiderslennon" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">github.com/seiderslennon</a></p> -->
     <p><a href="https://www.linkedin.com/in/lennon-seiders/" style="color: inherit; text-decoration: none; outline: none; -webkit-tap-highlight-color: transparent;">linkedin.com/in/lennon-seiders</a></p>
     <p>lseiders3@gatech.edu</p>
